@@ -10,7 +10,19 @@
 * So the underlay provides the IP connectivity for the endpoints of VXLAN while the overlay is the virtual network over both hosts.
 
 ### Linux Commands:
-![Screenshot](screenshots/Screenshot-from-2026-10-03-11-38-48.png)
-
-
-
+![Screenshot](1.png)
+* Added the 4 namespaces host1, host2, tenant1 and tenant2.
+* Created the underlay connection using veth pairs.
+* Configured the IP addresses for Underlay network.
+* Created the Tenant Interfaces.
+* Created Bridges and then put the tenant side interface into the bridges.
+![Screenshot](2.png)
+* Configured IP addresses for tenant1 and tenant2.
+* Created VXLAN interface on host1.
+* Created VXLAN interface on host2.
+* Connected VXLAN to the bridges.
+* Configured FDB entries.
+![Screenshot](3.png)
+* Displayed the FDB table entries.
+* Configured MTU for the links.
+* Ping test for checking connectivity between tenant1 and tenant2.
