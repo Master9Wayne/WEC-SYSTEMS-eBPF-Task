@@ -9,7 +9,8 @@
 * Thus, even though tenant1 and tenant2 are physically on different hosts, the VXLAN overlay makes them behave as if they are connected to the same Layer-2 LAN.
 * So the underlay provides the IP connectivity for the endpoints of VXLAN while the overlay is the virtual network over both hosts.
 
-### Linux Commands
+### Linux Commands:
+![Screenshot](screenshots/Screenshot-from-2026-10-03-11-38-48.png)
 
 
 
