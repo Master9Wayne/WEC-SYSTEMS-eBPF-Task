@@ -12,4 +12,10 @@
 * To demonstrate the filtering policy, I ran two HTTP servers in `tenant2`: one on **port 80** and another on **port 8080**. Traffic destined for port 80 was successfully dropped by the eBPF program, while traffic destined for port 8080 was allowed to pass through.
 
 ### Screenshots:
-
+![Screenshot](4.png)
+* Added eBPF program as TC filter on ingress.
+* Checked connectivity using Ping.
+* Used curl to fetch packets from HTTP Server on port 80. All packets were dropped.
+* Packets from HTTP Server on port 8080 were allowed.
+![Screenshot](5.png)
+* Displayed bpf map's data to show the total number of packets, allowed and dropped packets.
