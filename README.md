@@ -1,8 +1,6 @@
 # WEC-SYSTEMS-eBPF-Task
 ## My Submission
 
-## Tasks
-
 | Task No. | Task Name | Link |
 |----------|-----------|------|
 | 1 | VXLAN Setup | [View Task](https://github.com/Master9Wayne/WEC-SYSTEMS-eBPF-Task/tree/Task-1) |
