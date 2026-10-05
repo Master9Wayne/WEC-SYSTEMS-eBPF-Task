@@ -5,6 +5,6 @@
 
 | Task No. | Task Name | Link |
 |----------|-----------|------|
-| 1 | VXLAN Network Setup | [View Task](./task1-vxlan/) |
-| 2 | eBPF TC Packet Filtering | [View Task](./task2-ebpf/) |
-| 3 | Network State Controller | [View Task](./task3-controller/) |
+| 1 | VXLAN Setup | [View Task](https://github.com/Master9Wayne/WEC-SYSTEMS-eBPF-Task/tree/Task-1) |
+| 2 | eBPF TC Packet | [View Task](https://github.com/Master9Wayne/WEC-SYSTEMS-eBPF-Task/tree/Task-2) |
+| 3 | Network Controller | [View Task](https://github.com/Master9Wayne/WEC-SYSTEMS-eBPF-Task/tree/Task-3) |
